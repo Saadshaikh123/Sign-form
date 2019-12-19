@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebeef4;
+}
+
+#form{
+    margin: 6em 30em;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    background-color: #ffffff;
+}
+/* social icons */
+.icons{
+    margin: 2%;
+}
+
+.icons img{
+    height: 30px;
+    width: 30px;
+    margin-right: 6%;
+    cursor: pointer;
+}
+.social-icons h1{
+    font-family: sans-serif;
+    font-size: 1.8em;
+    font-style: bold;
+    margin: 0px;
+    color: #4c5763;
+}
+
+.social-icons h2{
+    font-family: sans-serif;
+    font-size: 1.7em;
+    font-style: bold;
+    margin-bottom: 0px;
+    color: #4c5763;
+}
+
+/* input section */
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], 
+input[type=password],
+input[type=email],
+input[type=number]{
+    width: 55%;
+    padding: 3px;
+    height: 34px;
+    margin: 1.5% 20%;
+    background-color: transparent;
+    border: 1px solid #cbd1da;
+    outline: none;
+}
+
+::placeholder{
+    padding: 3px;
+}
+/* signup button */
+.signup-button{
+    background-color: #45515e;
+    color: white;
+    margin: 1% 20%;
+    outline: none;
+    border: none;
+    width: 57%;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.signup-button:hover{
+    background-color: #2a343f;
+    color: white;
+    cursor: pointer;
+}
+
+/* input mein button */
+.button-input{
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+}
+.button-input input{
+    width: 38%;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    border-right: none;
+}
+
+.button-input div{
+    border-right: 1px solid #ced4dc;
+    border-top: 1px solid #ced4dc;
+    border-bottom: 1px solid #ced4dc;
+    padding: 0px 0px;
+
+}
+
+.button-input button{  
+    margin-top: 4px;
+    padding: 8px 25px;
+    border-radius: 4px;
+    background-color: #45515e;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+.button-input button:hover{
+    background-color: #2a343f;
+    color: white;
+    cursor: pointer;
+}
+/* last peragraph */
+.peragraph {
+    margin: 0% 24%;
+    margin-top: 21px;
+    text-align: center;
+    color: #a1adbd;
+}
+
+/* responsive */
+@media only screen and (max-width: 320px){
+    #form{
+        margin: 0px;
+        width: 93%;
+    }
+
+    .button-input{
+        margin-left: 5px;
+    }
+    .button-input input{
+        width: 33%;
+    }
+}
+
+ @media only screen and (max-width: 859px){
+    #form{
+        margin: 0px;
+        width: auto;
+    }  
+} 
